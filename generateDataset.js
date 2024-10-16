@@ -6,7 +6,7 @@ import chalk from 'chalk';
 const githubBaseUrl = 'https://raw.githubusercontent.com/DevTaiwo18/car-damage-images-2/main/images';
 
 // Path to the folder containing your 46 new images
-const baseImageFolder = path.join(process.cwd(), 'car-damage-images-2');
+const baseImageFolder = path.join(process.cwd(), 'images');
 const outputFile = path.join(process.cwd(), 'new-cardata.jsonl');
 
 // Detailed questions for car damage analysis
