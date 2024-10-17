@@ -7,7 +7,7 @@ const githubBaseUrl = 'https://raw.githubusercontent.com/DevTaiwo18/car-damage-i
 
 // Path to the folder containing your new images
 const baseImageFolder = path.join(process.cwd(), 'images');
-const outputFile = path.join(process.cwd(), 'paliGemma-dent-dataset.jsonl');
+const outputFile = path.join(process.cwd(), 'dent-dataset.jsonl');
 
 // Questions for counting dents and assessing their size
 const questions = [
