@@ -6,7 +6,8 @@ from PIL import Image
 model = load_model('car_damage_model.keras')
 
 # Path to the image for testing
-img_path = 'images\images.jpeg'  # Update with any available image from your dataset
+img_path = r'C:\Users\Adeyemi Taiwo\Desktop\car-damage-dataset-2\images\test 1.jpeg'
+ # Update with any available image from your dataset
 
 # Load and preprocess the test image
 img = Image.open(img_path)
